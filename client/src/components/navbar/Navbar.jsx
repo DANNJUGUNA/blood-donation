@@ -5,7 +5,10 @@ const Navbar = () => {
     <div className=' flex flex-row py-4' >
         <div className=' mx-5 text-white flex flex-col'>
             <BsFillHeartPulseFill size={45}/>
-            <p>A life saved is our happiness</p>
+            <p className=' font-thin'>A life saved is our happiness</p>
+        </div>
+        <div>
+            
         </div>
     </div>
   )
