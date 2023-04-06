@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className=' flex flex-row py-4 items-center bg-white' >
         <div className=' mx-5 text-red-500 flex flex-col'>
-            <p className='ml-6'>< BsFillHeartPulseFill size={50}/></p>
-            <p className=' font-thin'>A life saved is our happiness</p>
+            <p className='ml-6 flex flex-row items-center font-semibold text-black '>Safe <span className='text-red-500 ml-1 mr-1'>< BsFillHeartPulseFill size={50}/></span> Life</p>
+            <p className=' font-thin text-black'>A life saved is our happiness</p>
         </div>
         <div className=' flex flex-row items-center text-red-500 justify-between font-semibold'>
             
