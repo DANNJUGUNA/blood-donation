@@ -6,6 +6,7 @@ import Aboutus from './pages/about/Aboutus'
 import DashBoard from './pages/dashboard/DashBoard'
 import SignUp from './pages/signup/SignUp'
 import Login from './pages/login/Login'
+import ContactUs from'./pages/contantus/ContactUs'
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
                  <Route index element={<Home/>}/>
                  <Route path='/about' element={<Aboutus/>}/>
                  <Route path='/dashboard' element={<DashBoard/>}/>
+                 <Route path='/contactus' element={<ContactUs/>}/>
                  <Route path='/signup' element={<SignUp/>}/>
                  <Route path='/login' element={<Login/>}/>
             </Route>
