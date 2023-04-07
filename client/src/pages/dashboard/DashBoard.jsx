@@ -5,12 +5,13 @@ const DashBoard = () => {
   return (
     <div className='flex flex-row mt-5 gap-5 mx-9'>
       <div className=' bg-white h-[100px] w-[180px] flex items-center justify-center shadow-slate-300 shadow-2xl rounded-3xl flex-col'>
-      <BiDonateBlood size={40} className='text-red-500'/>
+      <BiDonateBlood size={45} className='text-red-500'/>
         <p className=' font-semibold text-xl'>Donate Blood</p>
        
       </div>
-      <div className=' bg-white h-[100px] w-[150px] flex items-center justify-center'>
-        <p>Request Blood</p>
+      <div className=' bg-white h-[100px] w-[180px] flex items-center justify-center rounded-3xl flex-col  shadow-slate-300 shadow-2xl'>
+        <SiSemaphoreci size={45} className='text-red-500'/>
+        <p className=' font-semibold text-xl'>Request Blood</p>
       </div>
       <div className=' bg-white h-[100px] w-[150px] flex items-center justify-center'>
         <p>Avaible Blood</p>
