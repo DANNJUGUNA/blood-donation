@@ -1,6 +1,7 @@
 import React from 'react'
 import {BiDonateBlood} from 'react-icons/bi'
 import{SiSemaphoreci} from 'react-icons/si'
+import {MdOutlineEventAvailable} from 'react-icons/md'
 const DashBoard = () => {
   return (
     <div className='flex flex-row mt-5 gap-5 mx-9'>
@@ -13,8 +14,9 @@ const DashBoard = () => {
         <SiSemaphoreci size={45} className='text-red-500'/>
         <p className=' font-semibold text-xl'>Request Blood</p>
       </div>
-      <div className=' bg-white h-[100px] w-[150px] flex items-center justify-center'>
-        <p>Avaible Blood</p>
+      <div className=' bg-white h-[100px] w-[180px] flex items-center justify-center  shadow-slate-300 shadow-2xl rounded-3xl flex-col'>
+        <MdOutlineEventAvailable size={45} className='text-red-500'/>
+        <p className='font-semibold text-xl'>Avaible Blood</p>
       </div>
     </div>
   )
