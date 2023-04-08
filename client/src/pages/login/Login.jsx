@@ -3,7 +3,7 @@ import React from 'react'
 const Login = () => {
   return (
     <div className='flex items-center justify-center mt-16'>
-      <div className='w-[600px] h-[450px] rounded-3xl bg-white flex flex-col items-center justify-center'>
+      <div className='w-[600px] h-[450px] rounded-3xl bg-cyan-600 flex flex-col items-center justify-center shadow-xl shadow-black'>
         <p className='font-bold mb-2 text-2xl underline'>LOGIN</p>
        <form className='flex flex-col'>
         <label className='mb-2 mt-2 font-semibold'>Email</label>
