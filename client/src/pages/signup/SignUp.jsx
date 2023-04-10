@@ -16,7 +16,7 @@ const SignUp = () => {
         <label className='mb-2 mt-2 font-semibold'>PassWord</label>
         <input type="password" className=' h-9 rounded-lg p-3 border border-red-500 outline-none' placeholder='password#####1233' data-lpignore="true"/>
         
-        <button className='rounded-full bg-[#BF2222] mb-2 mt-2 font-semibold text-2xl text-white'>Register</button>
+        <button className='rounded-full bg-[#BF2222] mb-2 mt-3 font-semibold text-2xl text-white'>Register</button>
        </form>
        <p className='mb-3'>Have an account? <a>Login</a></p>
       </div>
