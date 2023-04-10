@@ -22,6 +22,10 @@ const DashBoard = () => {
         <MdEventSeat size={45} className='text-red-500'/>
         <p className='font-semibold text-xl  text-white'>Events</p>
       </div>
+      <div className=' bg-cyan-500 h-[100px] w-[180px] flex items-center justify-center  shadow-black shadow-xl rounded-3xl flex-col hover:scale-105 duration-300'>
+        <MdEventSeat size={45} className='text-red-500'/>
+        <p className='font-semibold text-xl  text-white'>Blood needed</p>
+      </div>
     </div>
   )
 }
