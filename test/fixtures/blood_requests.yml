@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  blood_type: MyString
+  user: one
+  location: MyString
+  date_time: 2023-04-10 16:02:10
+  status: false
+
+two:
+  blood_type: MyString
+  user: two
+  location: MyString
+  date_time: 2023-04-10 16:02:10
+  status: false
